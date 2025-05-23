@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/tmc/langchaingo/chains"
-	"github.com/tmc/langchaingo/llms/openai"
+	"github.com/yincongcyincong/langchaingo/chains"
+	"github.com/yincongcyincong/langchaingo/llms/openai"
 )
 
 func main() {

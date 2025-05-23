@@ -4,7 +4,7 @@ import (
 	"context"
 
 	chromaembedding "github.com/amikos-tech/chroma-go/pkg/embeddings"
-	"github.com/tmc/langchaingo/embeddings"
+	"github.com/yincongcyincong/langchaingo/embeddings"
 )
 
 var _ chromaembedding.EmbeddingFunction = chromaGoEmbedderV2{} // compile-time check

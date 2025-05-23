@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/tmc/langchaingo/callbacks"
-	"github.com/tmc/langchaingo/llms"
-	"github.com/tmc/langchaingo/llms/openai"
-	"github.com/tmc/langchaingo/tools"
+	"github.com/yincongcyincong/langchaingo/callbacks"
+	"github.com/yincongcyincong/langchaingo/llms"
+	"github.com/yincongcyincong/langchaingo/llms/openai"
+	"github.com/yincongcyincong/langchaingo/tools"
 )
 
 // Model represents a Perplexity AI model type.

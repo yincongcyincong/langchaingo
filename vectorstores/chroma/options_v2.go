@@ -6,7 +6,7 @@ import (
 
 	chromago "github.com/amikos-tech/chroma-go/pkg/api/v2"
 	chromatypes "github.com/amikos-tech/chroma-go/types"
-	"github.com/tmc/langchaingo/embeddings"
+	"github.com/yincongcyincong/langchaingo/embeddings"
 )
 
 // OptionV2 is a function type that can be used to modify the client.

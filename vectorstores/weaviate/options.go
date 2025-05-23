@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"slices"
 
-	"github.com/tmc/langchaingo/embeddings"
 	"github.com/weaviate/weaviate-go-client/v4/weaviate/auth"
+	"github.com/yincongcyincong/langchaingo/embeddings"
 )
 
 const (

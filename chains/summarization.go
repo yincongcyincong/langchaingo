@@ -1,8 +1,8 @@
 package chains
 
 import (
-	"github.com/tmc/langchaingo/llms"
-	"github.com/tmc/langchaingo/prompts"
+	"github.com/yincongcyincong/langchaingo/llms"
+	"github.com/yincongcyincong/langchaingo/prompts"
 )
 
 const _stuffSummarizationTemplate = `Write a concise summary of the following:

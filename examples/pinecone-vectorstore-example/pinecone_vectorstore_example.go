@@ -6,19 +6,19 @@ import (
 	"log"
 
 	"github.com/google/uuid"
-	"github.com/tmc/langchaingo/embeddings"
-	"github.com/tmc/langchaingo/llms/openai"
-	"github.com/tmc/langchaingo/schema"
-	"github.com/tmc/langchaingo/vectorstores"
-	"github.com/tmc/langchaingo/vectorstores/pinecone"
+	"github.com/yincongcyincong/langchaingo/embeddings"
+	"github.com/yincongcyincong/langchaingo/llms/openai"
+	"github.com/yincongcyincong/langchaingo/schema"
+	"github.com/yincongcyincong/langchaingo/vectorstores"
+	"github.com/yincongcyincong/langchaingo/vectorstores/pinecone"
 )
 
 func main() {
 	// Create an embeddings client using the OpenAI API. Requires environment variable OPENAI_API_KEY to be set.
-	
-	llm, err := openai.New(openai.WithEmbeddingModel("text-embedding-3-small"))// Specify your preferred embedding model
+
+	llm, err := openai.New(openai.WithEmbeddingModel("text-embedding-3-small")) // Specify your preferred embedding model
 	if err != nil {
-    		log.Fatal(err)
+		log.Fatal(err)
 	}
 
 	e, err := embeddings.NewEmbedder(llm)

@@ -7,9 +7,9 @@ import (
 	"fmt"
 
 	"github.com/jackc/pgx/v5"
-	"github.com/tmc/langchaingo/llms"
-	"github.com/tmc/langchaingo/schema"
-	"github.com/tmc/langchaingo/util/alloydbutil"
+	"github.com/yincongcyincong/langchaingo/llms"
+	"github.com/yincongcyincong/langchaingo/schema"
+	"github.com/yincongcyincong/langchaingo/util/alloydbutil"
 )
 
 type ChatMessageHistory struct {

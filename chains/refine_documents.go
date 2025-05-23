@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/tmc/langchaingo/memory"
-	"github.com/tmc/langchaingo/prompts"
-	"github.com/tmc/langchaingo/schema"
+	"github.com/yincongcyincong/langchaingo/memory"
+	"github.com/yincongcyincong/langchaingo/prompts"
+	"github.com/yincongcyincong/langchaingo/schema"
 )
 
 const (

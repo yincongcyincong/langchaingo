@@ -7,8 +7,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/tmc/langchaingo/llms"
-	"github.com/tmc/langchaingo/llms/googleai"
+	"github.com/yincongcyincong/langchaingo/llms"
+	"github.com/yincongcyincong/langchaingo/llms/googleai"
 )
 
 func main() {

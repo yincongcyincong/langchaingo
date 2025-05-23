@@ -13,8 +13,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/testcontainers/testcontainers-go"
 	"github.com/testcontainers/testcontainers-go/modules/mysql"
-	"github.com/tmc/langchaingo/tools/sqldatabase"
-	_ "github.com/tmc/langchaingo/tools/sqldatabase/mysql"
+	"github.com/yincongcyincong/langchaingo/tools/sqldatabase"
+	_ "github.com/yincongcyincong/langchaingo/tools/sqldatabase/mysql"
 )
 
 func Test(t *testing.T) {
